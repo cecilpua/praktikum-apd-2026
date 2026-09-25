@@ -1,0 +1,49 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="BLc4glW-DAKKxRbRZeAY">
+    <mxGraphModel dx="1086" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Mulai (Start)" vertex="1">
+          <mxGeometry height="60" width="160" x="314" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skincare_1 = 35000&#xa;skincare_2 = 42000&#xa;skincare_3 = 50000&#xa;skincare_4 = 55000&#xa;skincare_5 = 68000&#xa;skincare_6 = 70000&#xa;ongkir = 12000" vertex="1">
+          <mxGeometry height="130" width="240" x="274" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="total_pengeluaran = skincare_1 + skincare_2 + skincare_3 + skincare_4 + skincare_5 + skincare_6 + ongkir" vertex="1">
+          <mxGeometry height="70" width="320" x="234" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="daftar_item = [skincare_1, ..., ongkir]&#xa;rata_rata = total_pengeluaran / len(daftar_item)" vertex="1">
+          <mxGeometry height="70" width="280" x="254" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="nim = 25&#xa;bolean = nim &lt; rata_rata" vertex="1">
+          <mxGeometry height="60" width="240" x="274" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Tampilkan (print):&#xa;skincare_1..6, ongkir,&#xa;total_pengeluaran, rata_rata,&#xa;nim, bolean" vertex="1">
+          <mxGeometry height="80" width="280" x="254" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Selesai (End)" vertex="1">
+          <mxGeometry height="60" width="160" x="314" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-8" edge="1" parent="1" source="zM54wCcYQ4UDSv5NMbNL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="zM54wCcYQ4UDSv5NMbNL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-9" edge="1" parent="1" source="zM54wCcYQ4UDSv5NMbNL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="zM54wCcYQ4UDSv5NMbNL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-10" edge="1" parent="1" source="zM54wCcYQ4UDSv5NMbNL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="zM54wCcYQ4UDSv5NMbNL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-11" edge="1" parent="1" source="zM54wCcYQ4UDSv5NMbNL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="zM54wCcYQ4UDSv5NMbNL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-12" edge="1" parent="1" source="zM54wCcYQ4UDSv5NMbNL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="zM54wCcYQ4UDSv5NMbNL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zM54wCcYQ4UDSv5NMbNL-13" edge="1" parent="1" source="zM54wCcYQ4UDSv5NMbNL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="zM54wCcYQ4UDSv5NMbNL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
