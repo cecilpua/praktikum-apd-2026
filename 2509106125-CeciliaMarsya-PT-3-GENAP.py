@@ -1,8 +1,4 @@
-# Nama : marsya
-# NIM  : 125 (2 digit terakhir: 25)
-# Posttest APD Modul 3 - NIM Genap
-
-# Data login benar
+# login
 nama_benar = "marsya"
 nim_benar = "25"
 
@@ -10,20 +6,20 @@ print("=== LOGIN SYSTEM ===")
 username = input("Masukkan username: ")
 password = input("Masukkan Password: ")
 
-# Nested if sesuai arahan aslab
+# nested if 
 if username == nama_benar:
     if password == nim_benar:
         print("login berhasil")
         print()
 
-        # Input total poin
+        # input total poin
         total_point = float(input("Masukkan total point: "))
 
-        # Error handling jika poin kurang dari 0
+        # error handling jika poin kurang dari 0
         if total_point < 0:
             print("Peringatan: total_point tidak boleh kurang dari 0!")
         else:
-            # Penentuan rank dan sisa poin
+            # penentuan rank dan sisa poin
             if total_point < 100:
                 rank = "Rookie"
                 sisa_point = 100 - total_point
@@ -46,7 +42,7 @@ if username == nama_benar:
             print("Total Point:", total_point)
             print("Rank Saat Ini:", rank)
 
-            # Tampilan penentuan sisa poin
+            # menampilkan penentuan sisa poin
             if rank == "Legend":
                 print("Selamat! Anda telah mencapai rank tertinggi!")
             else:
