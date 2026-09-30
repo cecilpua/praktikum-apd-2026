@@ -117,7 +117,7 @@
           <mxGeometry height="80" width="80" x="305" y="900" as="geometry" />
         </mxCell>
         <mxCell id="0H05He73iqFpNa86ZSt7-32" parent="1" style="whiteSpace=wrap;html=1;" value="nama_misi=&quot;Misi Kritis&quot; bonus = dasar * 0.08" vertex="1">
-          <mxGeometry height="60" width="140" x="432.5" y="910" as="geometry" />
+          <mxGeometry height="60" width="140" x="432.5" y="915" as="geometry" />
         </mxCell>
         <mxCell id="0H05He73iqFpNa86ZSt7-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="tidak" vertex="1">
           <mxGeometry height="30" width="60" x="330" y="760" as="geometry" />
